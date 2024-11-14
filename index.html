@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <section class="left">
+            <img src="sahilai1.jpg" alt="">
+            <p id="name">Sahil Patil</p>
+            <div class="line"></div>
+            <p class="email-title">Email ID</p>
+            <p class="email-content">sahilpatil0211@gmail.com</p>
+
+            <p class="email-title">Mobile No</p>
+            <p class="email-content">+91 7666752420</p>
+
+            <p class="email-title">Date of Birth</p>
+            <p class="email-content">02/11/2003</p>
+
+            <p class="email-title">Address</p>
+            <p class="email-content">Pune, Maharashtra, India</p>
+
+            <div class="social-media">
+                <img src="image/facebook.png" alt="image1">
+                <img src="image/insta.png" alt="image1">
+                <img src="image/linkedin.png" alt="image1">
+            </div>
+
+            <a href="C:\Users\Admin\OneDrive\Desktop\Portfolio 2\Sahil Resume.pdf" download>
+            Download CV
+            </a>
+
+        </section>
+    
+        <section class="right">
+            <div class="tab-section">
+                <button type="button" class="tab-btn" onclick="openTab(event,'about')">About</button>
+                <button type="button" class="tab-btn" onclick="openTab(event,'resume')">Skills</button>
+                <button type="button" class="tab-btn" onclick="openTab(event,'portfolio')">Portfolio</button>
+                <button type="button" class="tab-btn" onclick="openTab(event,'blog')">Certificates</button>
+                <button type="button" class="tab-btn" onclick="openTab(event,'contact')">Contact</button>
+            </div>
+
+
+            <div class="content">
+                <!-- About Section -->
+                <div id="about" class="mycontent">
+                    <h1>About Me</h1>
+                    <div class="about-line"></div>
+                    <p>Hello! I'm Sahil, a 21-year-old Computer Engineering student currently pursuing my B.Tech degree from D Y Patil College. With a passion for coding and technology, I enjoy exploring the latest in software development and problem-solving through innovative solutions.</p>
+                    
+                    <p>My academic journey has equipped me with a solid foundation in programming languages, algorithms, and system design. I have hands-on experience with various projects that demonstrate my skills in Java, MySQL, Web Devlopment,etc. I’m always eager to learn and grow, staying updated with the latest trends and technologies in the industry.</p>
+
+                    <div class="doing">
+                        <h1>What I'm Doing</h1>
+                        <div class="main-doing-container">
+                            <div class="container-doing" id="container-one">
+                                <div class="yarr">
+                                    <div class="yarr-left">
+                                        <img src="image/web-design.png" alt="">
+                                    </div>
+                                    <div class="yarr-right">
+                                        <p id="web-design" style="font-size: 20px;">Web Designing</p>
+                                        <p>Skilled in Full-Stack Web Development & Proficient in HTML, CSS, JavaScript, React, Node.js</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-doing" id="container-two">
+                                <div class="yarr">
+                                    <div class="yarr-left">
+                                        <img src="image/uixi.png" alt="">
+                                    </div>
+                                    <div class="yarr-right">
+                                        <p id="web-design" style="font-size: 20px;">UI/UX Designing</p>
+                                        <p>UI/UX Designer | Skilled in Creating Intuitive and User-Centered Interfaces</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-doing" id="container-three">
+                                <div class="yarr">
+                                    <div class="yarr-left">
+                                        <img src="image/learning.png" alt="">
+                                    </div>
+                                    <div class="yarr-right">
+                                        <p id="web-design" style="font-size: 20px;">Learning</p>
+                                        <p>Eager to Learn New Skills ,Technologies and Quick Learner with a Passion for Continuous Growth and Improvement</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-doing" id="container-four">
+                                <div class="yarr">
+                                    <div class="yarr-left">
+                                        <img src="image/photography.png" alt="">
+                                    </div>
+                                    <div class="yarr-right">
+                                        <p id="web-design" style="font-size: 20px;">Photography</p>
+                                        <p>Photography Enthusiast | Capturing Moments Through Creative Lenses</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <!-- Testimonal Section -->
+
+                    <div class="testimonal">
+                        <h1>Testimonials</h1>
+
+                        <div id="main-testimonals">
+                            <div class="test" id="test-1">
+                                <div class="user-img">
+                                    <img src="image/user.png" alt="">
+                                </div>
+                                <p><span>Rohan Patil</span><br>
+                                    Sahil delivered a clean, responsive, and user-friendly website that exceeded our expectations.</p>
+                            </div>
+                            <div class="test" id="test-2">
+                                <div class="user-img">
+                                    <img src="image/girl.png" alt="">
+                                </div>
+                                <p><span>Roshni Ajmera</span><br>
+                                 "He built a website that not only looks fantastic but performs flawlessly across all devices."</p>
+                            </div>
+                            <div class="test" id="test-3">
+                                <div class="user-img">
+                                    <img src="image/girl.png" alt="">
+                                </div>
+                                <p><span>Ritika More</span><br>
+                                   "His professionalism and problem-solving skills were impressive throughout the project."</p>
+                            </div>
+                            <div class="test" id="test-4">
+                                <div class="user-img">
+                                    <img src="image/user.png" alt="">
+                                </div>
+                                <p><span>Abhijeet Jadhav</span><br>
+                                    "Sahil's work on our website was outstanding.We're extremely satisfied!"</p>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    
+                    <!-- My Journey -->
+                    <div class="myjourney">
+                        <h1>My Journey</h1>
+                        <div class="journey-container">
+                            <div class="journey-left">
+                                <div id="one">
+
+                                </div>
+
+                                <div id="line-one">
+                                    
+                                </div>
+
+                                <div id="two">
+
+                                </div>
+
+                                <div id="line-two">
+                                    
+                                </div>
+
+                                <div id="three">
+
+                                </div>
+
+                                <div id="line-three">
+                                    
+                                </div>
+
+                            </div>
+    
+                            <div class="journey-right">
+                                <div id="school" class="education">
+                                <div class="dates">    
+                                    <img src="image/calender.png" alt="">
+                                    <p id="date">2015-2018</p>
+                                </div>
+                                <p class="edutitle">School - TSMV School</p>
+                                <p class="edudescription">Completed my school journey from 2015 to 2018, where I developed a strong foundation in academics while consistently demonstrating good behavior and a passion for learning. This period shaped my knowledge</p>
+                                </div>
+
+                                <div id="diploma" class="education">
+                                    <div class="dates">    
+                                        <img src="image/calender.png" alt="">
+                                        <p id="date">2019-2022</p>
+                                    </div>
+                                    <p class="edutitle">Diploma - SSC Polytechnic College</p>
+                                    <p class="edudescription">Completed my Diploma in Computer Engineering with full focus and dedication, honing technical skills and gaining a solid foundation in programming, problem-solving, and system design.</p>
+                                </div>
+
+                                <div id="Bachlor" class="education">
+                                    <div class="dates">    
+                                        <img src="image/calender.png" alt="">
+                                        <p id="date">2022-2025</p>
+                                    </div>
+                                    <p class="edutitle">Bachelors - D.Y.Patil University College</p>
+                                    <p class="edudescription">Currently pursuing a degree in Computer Engineering (2022-2025), focusing on advanced technical skills, innovative solutions, and industry trends.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+                    
+
+                </div>
+
+                <!-- Skills Section -->
+                <div id="resume" class="mycontent">
+                    <h1>Skills</h1>
+                    <div class="about-line"></div>
+                    <p>I have a strong foundation in software development, with proficiency in Java, MySQL, and web development. My experience with Java has enabled me to build robust and efficient backend systems, focusing on object-oriented design principles and clean, maintainable code. In working with MySQL, I’ve developed a deep understanding of relational database management, allowing me to design, optimize, and query complex databases to support dynamic applications</p>
+
+                    <div class="skill-card">
+                        <div class="card" id="card-1">
+                            <img src="image/html1.png" alt="">
+                            <div class="demo-skill">
+                                <p class="skill"><span>HTML</span> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi, minima!</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card-2">
+                            <img src="image/css2.png" alt="">
+                            <div class="demo-skill">
+                                <p class="skill"><span>CSS</span> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi, minima!</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card-3">
+                            <img src="image/javascript2.png" alt="">
+                            <div class="demo-skill">
+                                <p class="skill"><span>JavaScript</span> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi, minima!</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card-4">
+                            <img src="image/java2.png" alt="">
+                            <div class="demo-skill">
+                                <p class="skill"><span>Java</span> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi, minima!</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card-5">
+                            <img src="image/mysql2.png" alt="">
+                            <div class="demo-skill">
+                                <p class="skill"><span>MySQL</span> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi, minima!</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card-6">
+                            <img src="image/python2.png" alt="">
+                            <div class="demo-skill">
+                                <p class="skill"><span>Python</span> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi, minima!</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card-6">
+                            <img src="image/nodejs1.png" alt="">
+                            <div class="demo-skill">
+                                <p class="skill"><span>NodeJs</span> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi, minima!</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card-6">
+                            <img src="image/mongo.webp" alt="">
+                            <div class="demo-skill">
+                                <p class="skill"><span>MongoDB</span> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Animi, minima!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    
+
+
+                </div>
+
+                <!-- Portfolio Section -->
+                <div id="portfolio" class="mycontent">
+                    <h1 class="title">Portfolio</h1>
+                    <div class="portfolio-line"></div>
+                    <h1 style="text-align: center; margin-bottom: 10px;">Look at Our Projects</h1>
+
+                    <div class="tab-portfolio">
+                        <button type="button" class="portbtn" onclick="openPortfolio(event,'all')">All</button>
+                        <button type="button" class="portbtn" onclick="openPortfolio(event,'web')">Web Design</button>
+                        <button type="button" class="portbtn" onclick="openPortfolio(event,'word')">Wordpress</button>
+                    </div>
+
+                    <div id="tabs-container">
+                        <div id="all" class="demotab">
+                            <!-- All Section -->
+                            <div class="all-pro">
+                                <div id="one" class="pro">
+                                    <img src="image/pro1.jpg" alt="">
+                                        <div class="main-content-port">
+                                            <p class="title">Peoject Title</p>
+                                            <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                            <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                        </div>
+                                        
+                                </div>
+                                <div id="two" class="pro">
+                                    <img src="image/pro2.jpeg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>    
+                                </div>
+                                <div id="three" class="pro">
+                                    <img src="image/pro3.jpg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                                <div id="four" class="pro">
+                                    <img src="image/pro4.jpeg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                                <div id="five" class="pro">
+                                    <img src="image/pro5.jpeg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                                <div id="six" class="pro">
+                                    <img src="image/pro6.jpg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="web" class="demotab">
+                            <!-- Web Section -->
+                            <div class="all-pro">
+                                <div id="one" class="pro">
+                                    <img src="image/pro7.jpg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                                <div id="two" class="pro">
+                                    <img src="image/pro8.jpeg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                                <div id="three" class="pro">
+                                    <img src="image/pro9.jpg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                                <div id="four" class="pro">
+                                    <img src="image/pro10.jpeg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="word" class="demotab">
+                            <!-- WordPress Section -->
+                            <div class="all-pro">
+                                <div id="one" class="pro">
+                                    <img src="image/pro11.avif" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                                <div id="two" class="pro">
+                                    <img src="image/pro12.jpg" alt="">
+                                    <div class="main-content-port">
+                                        <p class="title">Peoject Title</p>
+                                        <p class="projec-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, expedita.</p>
+                                        <button type="button">Downolad Project <img src="image/download.png" alt=""></button>    
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Section -->
+                <div id="blog" class="mycontent">
+                    <h1>Certificates</h1>
+                    <div class="about-line"></div>
+
+                    <div class="certificate-content">
+                        <h2>My Certifications</h2>
+                        <p>"Continuous learning and skill development are at the core of my journey as a developer. Below are the certifications I've earned, demonstrating my expertise in various technologies and commitment to staying current with industry standards. Each certification represents not just a badge, but the dedication and knowledge."</p>
+
+                        <div id="actual-certifications">
+                            <div class="certificate" id="certificate-one">
+                                <img src="image/salesforce2.png" alt="">
+                                <p class="title">Salesforce Internship</p>
+                                <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.</p>
+                                <button type="button">View Certificate</button>
+                            </div>
+
+                            <div class="certificate" id="certificate-two">
+                                <img src="image/webdev.png" alt="">
+                                <p class="title">Web Devlopment Internship</p>
+                                <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.</p>
+                                <button type="button">View Certificate</button>
+                            </div>
+
+                            <div class="certificate" id="certificate-three">
+                                <img src="image/udemy.png" alt="">
+                                <p class="title">Udemy Certificate</p>
+                                <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.</p>
+                                <button type="button">View Certificate</button>
+                            </div>
+
+                            <div class="certificate" id="certificate-four">
+                                <img src="image/ml.png" alt="">
+                                <p class="title">Machine Learning Workshop</p>
+                                <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.</p>
+                                <button type="button">View Certificate</button>
+                            </div>
+
+                            <div class="certificate" id="certificate-five">
+                                <img src="image/salesforce2.png" alt="">
+                                <p class="title">Salesforce Internship</p>
+                                <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.</p>
+                                <button type="button">View Certificate</button>
+                            </div>
+
+                            <div class="certificate" id="certificate-six">
+                                <img src="image/salesforce2.png" alt="">
+                                <p class="title">Salesforce Internship</p>
+                                <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.adipisicing elit. Rem, numquam.</p>
+                                <button type="button">View Certificate</button>
+                            </div>  
+                        </div>      
+                    </div>
+                </div>
+
+
+            <!-- Contact Section  -->
+            <div id="contact" class="mycontent">
+                    <h1>Get In Touch</h1>
+                    <div class="line-contact">
+                    </div>
+                    <div class="content-contact">
+                        <div class="contact-msg">
+                            <p>Thanks for visiting! We hope that you have found what you needed on my website. If not, please feel free to contact us using given method</p>
+                        </div>
+
+                        <div class="actual-contact">
+                            <form action="">
+                                <input type="text" name="name" id="name" placeholder="Enter Username" required><br>
+                                <input type="text" name="email" id="email" placeholder="Enter Email ID" required><br>
+                                <input type="text" name="msg" id="msg" placeholder="Enter Messege" required>
+                            </form>
+
+                            <button type="submit">Send Messege</button>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Footer -->
+                    <div class="final-line"></div>
+
+                    <div class="basic-info">
+                        <div id="left" class="demo">
+                            <h2>Contact Details</h2>
+                            <p><img src="image/phone.png" alt="">+91 7666752420</p>
+                            <p><img src="image/birth.png" alt="">02/11/2003</p>
+                            <p><img src="image/email.png" alt="">sahilpatil0211@gmail.com</p>
+                            <p><img src="image/location.png" alt="">Pune, Maharashtra</p>
+                        </div>
+
+                        <div id="center" class="demo">
+                            <div class="center-title">
+                                <h2>Social Media</h2>
+                            </div>
+                            <div class="logos">
+                                <img src="image/insta.png" alt="">
+                                <img src="image/facebook.png" alt="">
+                                <img src="image/linkedin.png" alt="">
+                            </div>
+                        </div>
+
+                        <div id="right" class="demo">
+                            <h2>Personal View</h2>
+                            <p>I am Currently focusing on my Technical Skills and try to improve them</p>
+                        </div>
+                    </div>
+                    
+            </div>  <!-- Contact Section ends here-->
+
+
+            </div>
+
+
+        </section>
+    </div>
+
+
+
+    <!-- JavaScript Section -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
